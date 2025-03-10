@@ -9,12 +9,10 @@ series = pd.Series(data=books_price, index=books_names)
 print(series)
 
 series.loc["Sumerki"] = 100000
-
 print(series)
 
 
 # basic operations
-
 series = series - 10000
 print(series)
 
@@ -26,3 +24,4 @@ print(series)
 
 series = series / 10000
 print(series)
+
